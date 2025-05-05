@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BIDocument class="oracle.dbtools.crest.model.businessinfo.BIDocument" name="Doc_1" directorySegmentName="seg_0" id="D0E45D71-E494-AFE1-DEA8-88AE45F5D5F8">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-04-07 22:40:21 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+</BIDocument>

@@ -1,0 +1,5 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign>
+   <object objectType="Document" objectID="3E78FF01-C973-1659-BAAD-B8E0DED1C3CF" name="DBI-CEUB\AVA2-IMC" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.businessinfo.BIDocument" propertyParentId="205980DE-5F79-883E-6582-EF8AE9D226A4" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Document" objectID="D0E45D71-E494-AFE1-DEA8-88AE45F5D5F8" name="Doc_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.businessinfo.BIDocument" propertyParentId="205980DE-5F79-883E-6582-EF8AE9D226A4" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign>

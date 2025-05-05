@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="B5534CA7-50FF-7FE4-383F-7C133ED739F0" mainViewID="3F9B030C-277C-3129-9972-FC11DD7CDF54">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-04-07 22:21:09 UTC</createdTime>
+<notes><![CDATA[O IMC ou Índice de Massa Corporal é uma medida internacionalmente reconhecida que auxilia na avaliação do estado
+nutricional de uma pessoa. É considerado um importante indicador, pois leva em consideração a altura e o peso da pessoa.
+O IMC é calculado por meio da divisão do peso do indivíduo pela estatura, em metros, ao quadrado. De forma simplificada,
+temos: peso/(altura x altura).
+Implemente um sistema que calcule o IMC de uma pessoa e que informe o resultado do IMC com a análise.
+O sistema deverá informar o nome, o IMC calculado e a análise do IMC da pessoa.
+]]></notes>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<documents>
+<Document id="3E78FF01-C973-1659-BAAD-B8E0DED1C3CF"/>
+</documents>
+</LogicalDesign>

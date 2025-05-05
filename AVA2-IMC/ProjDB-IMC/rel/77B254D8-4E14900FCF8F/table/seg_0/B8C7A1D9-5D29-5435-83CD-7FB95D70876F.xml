@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8C7A1D9-5D29-5435-83CD-7FB95D70876F" name="ImcHistorico">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-04-28 23:46:07 UTC</createdTime>
+<generatorID>EF049977-DF7D-C58F-A6FA-4B156F305E00</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dataMedicao" id="69F8E058-90A8-A432-0C78-489D532E32A9">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-04-28 23:46:07 UTC</createdTime>
+<generatorID>E5E4ACB9-F863-DC12-7DB2-301DA5CE2147</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pesoMedicao" id="8504495B-9FA4-BBB5-0FFC-2F0AFFFED6E0">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-04-28 23:46:07 UTC</createdTime>
+<generatorID>7C8F2D82-66E9-9941-AAB3-0B335715CC6E</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alturaMedicao" id="B9C75397-7B62-427D-9DB7-2206581AFF69">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-04-28 23:46:07 UTC</createdTime>
+<generatorID>46C845EA-1E69-B8DF-D167-4D296D97BE6D</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfPessoa" id="6CA0DC3F-11D4-4AE6-EF5C-B2488864EE26">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-04-28 23:46:07 UTC</createdTime>
+<generatorID>63BEA787-5C5B-929F-32C2-04A47E341D7D</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="virimcPessoa" id="21C1BEE0-C20D-77DB-35D2-126E44FADE22">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-04-28 23:46:07 UTC</createdTime>
+<generatorID>E687FA35-5294-2AA0-EF5A-955B0AD85562</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="analiseimcPessoa" id="2A882880-22D1-A548-7CCF-4F543FD750E8">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-04-28 23:46:07 UTC</createdTime>
+<generatorID>76A53640-058E-FA5C-D81D-95FDF26E9DB1</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfPessoa1" id="3C896004-BB6C-24A6-1CCF-3A2D3CD56FC4">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-04-28 23:46:07 UTC</createdTime>
+<generatorID>06547B14-299F-433C-390E-CFC30D010BB1</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B56C74B8-C2C0-5C53-86DD-35DAED5A6D99" referredColumn="75171C1D-1240-CA6D-3A91-9C7FD9E56E04"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5494DD12-B9CA-9CD4-F50A-5A682E2A2B24" name="ImcHistorico_PK">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-04-28 23:46:07 UTC</createdTime>
+<generatorID>07CBBDCE-2538-FD4E-65A9-1C43750EBF73</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69F8E058-90A8-A432-0C78-489D532E32A9"/>
+<colUsage columnID="6CA0DC3F-11D4-4AE6-EF5C-B2488864EE26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2E0803F-BBDF-682D-DB90-DB93300B9572" name="calcula">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-04-28 23:46:07 UTC</createdTime>
+<generatorID>54C71887-0984-E366-6B5C-F7AEB26D0B7E</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C896004-BB6C-24A6-1CCF-3A2D3CD56FC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

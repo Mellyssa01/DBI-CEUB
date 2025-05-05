@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="B8C7A1D9-5D29-5435-83CD-7FB95D70876F" name="ImcHistorico" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="77B254D8-6C6D-A4EC-F77D-4E14900FCF8F" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="5DD725AE-B5C6-1D8B-452F-6433E3FAE795" name="Pessoa" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="77B254D8-6C6D-A4EC-F77D-4E14900FCF8F" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="B56C74B8-C2C0-5C53-86DD-35DAED5A6D99" name="calcula" seqName="seg_0" containerID="B8C7A1D9-5D29-5435-83CD-7FB95D70876F" refContainerID="5DD725AE-B5C6-1D8B-452F-6433E3FAE795" propertyClassName="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" propertyParentId="77B254D8-6C6D-A4EC-F77D-4E14900FCF8F" propertySourceId="5DD725AE-B5C6-1D8B-452F-6433E3FAE795" propertyTargetId="B8C7A1D9-5D29-5435-83CD-7FB95D70876F"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
