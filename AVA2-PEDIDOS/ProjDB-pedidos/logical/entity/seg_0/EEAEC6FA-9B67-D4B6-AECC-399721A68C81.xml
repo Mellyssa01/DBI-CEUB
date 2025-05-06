@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EEAEC6FA-9B67-D4B6-AECC-399721A68C81" name="Pedido">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:11:53 UTC</createdTime>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<engineerTo>
+<item key="C8B528E7-6DBD-2509-D72E-52BBD6AB91CA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigoPedido" id="B555F373-2510-FFB5-83EB-2A826D28C830">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:14:49 UTC</createdTime>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<engineerTo>
+<item key="C8B528E7-6DBD-2509-D72E-52BBD6AB91CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataHoraPedido" id="637362B7-F6CA-DC71-A9D2-0E437B118268">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:15:29 UTC</createdTime>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<engineerTo>
+<item key="C8B528E7-6DBD-2509-D72E-52BBD6AB91CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="statusPedido" id="6FAC4332-C03D-BA6A-CAC7-4524D0E2D172">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:16:08 UTC</createdTime>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<engineerTo>
+<item key="C8B528E7-6DBD-2509-D72E-52BBD6AB91CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente" id="792C90F4-71B0-BE9A-5121-CB98F842B38F">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:23:54 UTC</createdTime>
+<generatorID>EC132250-FC8F-6367-3FF7-85AC50D66930</generatorID>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<engineerTo>
+<item key="C8B528E7-6DBD-2509-D72E-52BBD6AB91CA" value="true"/>
+</engineerTo>
+<referedAttribute>98427E90-C1D2-636B-7074-D978A9DC984F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matriculaVendedor" id="FD90E92B-B78C-3327-2B18-EA72A7456554">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:25:42 UTC</createdTime>
+<generatorID>3A1038C3-F8FC-0A7D-8A9E-B70ACD764ED1</generatorID>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<engineerTo>
+<item key="C8B528E7-6DBD-2509-D72E-52BBD6AB91CA" value="true"/>
+</engineerTo>
+<referedAttribute>F1171793-7D30-A724-D3E8-176C6999E818</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

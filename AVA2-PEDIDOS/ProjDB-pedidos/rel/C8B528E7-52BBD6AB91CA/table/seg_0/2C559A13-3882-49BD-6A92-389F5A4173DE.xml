@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C559A13-3882-49BD-6A92-389F5A4173DE" name="Pedido">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:27:20 UTC</createdTime>
+<generatorID>EEAEC6FA-9B67-D4B6-AECC-399721A68C81</generatorID>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigoPedido" id="2E67E32F-F902-5677-B3BE-B98B38A6EDBE">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:27:20 UTC</createdTime>
+<generatorID>B555F373-2510-FFB5-83EB-2A826D28C830</generatorID>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataHoraPedido" id="0DE45693-1BE6-7310-AC7C-A4E7832D5D00">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:27:20 UTC</createdTime>
+<generatorID>637362B7-F6CA-DC71-A9D2-0E437B118268</generatorID>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="statusPedido" id="FB76EA0B-CF77-1CE7-FA2D-1165BF5551D5">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:27:20 UTC</createdTime>
+<generatorID>6FAC4332-C03D-BA6A-CAC7-4524D0E2D172</generatorID>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfCliente" id="DA573544-754B-AF2F-9E01-2E75FC2B85BC">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:27:20 UTC</createdTime>
+<generatorID>792C90F4-71B0-BE9A-5121-CB98F842B38F</generatorID>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D218B00-6F94-3803-75AC-C00F97AA76D7" referredColumn="67A48642-04EC-46CE-4CDB-553E9A0185CA"/>
+</associations>
+</Column>
+<Column name="matriculaVendedor" id="59438465-787C-5B0D-3D8A-8A28578B6846">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:27:20 UTC</createdTime>
+<generatorID>FD90E92B-B78C-3327-2B18-EA72A7456554</generatorID>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77A60FA6-50AF-11AB-5425-7BB139DC4F48" referredColumn="8462D623-2DB5-8932-7708-9E7852EB3078"/>
+</associations>
+</Column>
+<Column name="Pedido_ID" id="E54CB9CA-A664-3630-BBFB-635AD2D2A3C3">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:27:20 UTC</createdTime>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA05C13E-6F77-74F2-B0CF-2103B1EA1169" name="Pedido_PK">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:27:20 UTC</createdTime>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="E54CB9CA-A664-3630-BBFB-635AD2D2A3C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB0965F2-CF42-179A-AF5B-27DD5AD33FE2" name="Pedido__IDX">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:27:20 UTC</createdTime>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>EC132250-FC8F-6367-3FF7-85AC50D66930</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="DA573544-754B-AF2F-9E01-2E75FC2B85BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03CBF71A-4736-F670-B7C4-318BF89971DB" name="Pedido__IDXv1">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:27:20 UTC</createdTime>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>3A1038C3-F8FC-0A7D-8A9E-B70ACD764ED1</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="59438465-787C-5B0D-3D8A-8A28578B6846"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11868C65-C10A-0A9A-0C6A-0B8DB815DFA4" name="Pedido_Cliente_FK">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:27:20 UTC</createdTime>
+<generatorID>EC132250-FC8F-6367-3FF7-85AC50D66930</generatorID>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA573544-754B-AF2F-9E01-2E75FC2B85BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88940D77-6E95-B497-92B7-9601C00F929C" name="Pedido_Vendedor_FK">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:27:20 UTC</createdTime>
+<generatorID>3A1038C3-F8FC-0A7D-8A9E-B70ACD764ED1</generatorID>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59438465-787C-5B0D-3D8A-8A28578B6846"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

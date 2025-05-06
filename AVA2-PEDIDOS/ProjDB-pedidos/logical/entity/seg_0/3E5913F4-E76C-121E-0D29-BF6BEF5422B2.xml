@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3E5913F4-E76C-121E-0D29-BF6BEF5422B2" name="Item">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-05 23:51:48 UTC</createdTime>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<engineerTo>
+<item key="C8B528E7-6DBD-2509-D72E-52BBD6AB91CA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigoItem" id="56A8AC9E-B923-AFB6-0A99-F6B641975240">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-05 23:52:14 UTC</createdTime>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<engineerTo>
+<item key="C8B528E7-6DBD-2509-D72E-52BBD6AB91CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricaoItem" id="8EDB7C01-58C0-F8B4-D086-3156A2ED3D57">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:09:48 UTC</createdTime>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<engineerTo>
+<item key="C8B528E7-6DBD-2509-D72E-52BBD6AB91CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidadeItem" id="820FB363-D8F0-5554-4179-D65B95A18BBC">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:10:25 UTC</createdTime>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<engineerTo>
+<item key="C8B528E7-6DBD-2509-D72E-52BBD6AB91CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precoUnitarioItem" id="C1AAFB18-E3A8-377B-8579-473C45983498">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:11:00 UTC</createdTime>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<engineerTo>
+<item key="C8B528E7-6DBD-2509-D72E-52BBD6AB91CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="64183A15-A3C4-9474-E250-8509F8A5E855" name="Item PK">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:09:42 UTC</createdTime>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<engineerTo>
+<item key="C8B528E7-6DBD-2509-D72E-52BBD6AB91CA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>56A8AC9E-B923-AFB6-0A99-F6B641975240</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,183 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6F2591B-9CB4-A6B1-4CF2-2422DA20B301" name="Cliente">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:27:20 UTC</createdTime>
+<generatorID>ECF67FE0-70F0-33AE-3F1E-B87C4C0DE52B</generatorID>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfCliente" id="67A48642-04EC-46CE-4CDB-553E9A0185CA">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:27:20 UTC</createdTime>
+<generatorID>98427E90-C1D2-636B-7074-D978A9DC984F</generatorID>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14 CHAR</dataTypeSize>
+<ownDataTypeParameters>14 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeCliente" id="753CFF84-E3AA-087E-EF8D-F6E4A3245B10">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:27:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[Somente PF é permitido ser cliente]]></commentInRDBMS>
+<generatorID>7F6DACDC-4024-8812-177A-2D0BB0086144</generatorID>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="enderecoCliente" id="E713CA7E-61EA-40ED-7647-636222E3ADA6">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:27:20 UTC</createdTime>
+<generatorID>8BE6BA5A-34AF-A632-8465-6450C74F864D</generatorID>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bairroCliente" id="24DCC9B4-DED5-E04D-339B-70788F0DEE7F">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:27:20 UTC</createdTime>
+<generatorID>0CD4D414-7A87-5878-6755-B215B591FBEB</generatorID>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cidadeCliente" id="FD302914-D558-4C75-ED35-B8D245F95D9A">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:27:20 UTC</createdTime>
+<generatorID>851B54FE-E568-63F0-48A8-82DD9E20D5E1</generatorID>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estadoCliente" id="10474774-420C-392C-98C9-3B2C0A600D9B">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:27:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[Abreviado]]></commentInRDBMS>
+<generatorID>4ACEE630-44C9-AC31-8FAA-AC19A60E8BE8</generatorID>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cepCliente" id="F5CA7196-2EE3-31FE-EC18-7AC739B95663">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:27:20 UTC</createdTime>
+<generatorID>2629B6D9-BE51-B324-CC50-F93EC57BEB12</generatorID>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefoneCliente" id="F35252B7-00BD-A299-2C06-4EE9B3F45D58">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:27:20 UTC</createdTime>
+<generatorID>362C2F91-846A-964B-1F66-9142790893A2</generatorID>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>17 CHAR</dataTypeSize>
+<ownDataTypeParameters>17 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matriculaVendedor" id="4D7DCC34-03F9-BCE6-D240-D46B72B9E94C">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:27:20 UTC</createdTime>
+<generatorID>CFCB9987-A978-343B-FF07-DCE0142981E7</generatorID>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DEEB70DE-AD0F-733A-F7E8-65731E325BAD" referredColumn="8462D623-2DB5-8932-7708-9E7852EB3078"/>
+</associations>
+</Column>
+<Column name="Pedido_Pedido_ID" id="B2A0DEE5-7373-B498-7F5A-675B701795D3">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:27:20 UTC</createdTime>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C864294F-580A-E368-51D2-CCDBC5052AF7" referredColumn="E54CB9CA-A664-3630-BBFB-635AD2D2A3C3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="09B2CF4F-B3FB-0120-4CA0-EEFC708BA996" name="Cliente_PK">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:27:20 UTC</createdTime>
+<generatorID>B0E08974-0311-CFAE-9E20-D68CD13410BF</generatorID>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67A48642-04EC-46CE-4CDB-553E9A0185CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B40C4BA-8263-7F33-DB0F-B8DE58F89375" name="Cliente__IDX">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:27:20 UTC</createdTime>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>EC132250-FC8F-6367-3FF7-85AC50D66930</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B2A0DEE5-7373-B498-7F5A-675B701795D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6CC95210-3148-3B58-41FD-244A23365E10" name="Cliente_Pedido_FK">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:27:20 UTC</createdTime>
+<generatorID>EC132250-FC8F-6367-3FF7-85AC50D66930</generatorID>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2A0DEE5-7373-B498-7F5A-675B701795D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD9D222D-3C21-EE54-3C0A-5D1E73EAF449" name="Cliente_Vendedor_FK">
+<createdBy>mellyssa.soares</createdBy>
+<createdTime>2025-05-06 00:27:20 UTC</createdTime>
+<generatorID>1853CF12-EDD9-A7EC-4BD8-D398E12D7373</generatorID>
+<ownerDesignName>ProjDB-pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D7DCC34-03F9-BCE6-D240-D46B72B9E94C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
