@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ProjDB-Clube" id="6FA93415-45BE-FB60-E50B-11DE75B3025E" version="3.5">
-<createdBy>mellyssa.soares</createdBy>
-<createdTime>2025-05-19 23:20:49 UTC</createdTime>
-<ownerDesignName>ProjDB-Clube</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>6FA93415-45BE-FB60-E50B-11DE75B3025E</designId>
-</OSDM_Design>
